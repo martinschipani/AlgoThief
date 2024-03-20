@@ -1,0 +1,18 @@
+@startuml
+
+autonumber
+
+actor Ciudad
+
+Ciudad -> Detective : visitarEdificio(edificio, horas)
+activate Detective
+
+Detective -> Reloj : avanzarTiempo(horas)
+activate Reloj
+deactivate Reloj
+
+Detective -> Edificio : visitar(detective)
+activate Edificio
+
+Edificio -> NoLadron : encontrar(detective)
+@enduml

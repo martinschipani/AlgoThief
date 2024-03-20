@@ -1,0 +1,55 @@
+@startuml
+
+abstract class Detective {
++ {abstract} visitarEdificio(Edificio edificio, int horas): String
++ {abstract} viajar(int distancia) : Void
++ obtenerFecha() : LocalDateTime
+}
+
+class DetectiveNovato extends Detective {
++ visitarEdificio(Edificio edificio, int horas): String
++ viajar(int distancia) : Void
+}
+
+class Ciudad {
+
+- nombre : String
+- contadorVisitas : Int
+
++ Ciudad(String nombre)
++ obtenerNombre() : String
++ visitarEdificio(Detective detective, int numeroEdificio) : Void
++ agregarEdificio(Edificio edificio) : Void
+}
+
+class Reloj {
+- LocalDateTime fecha
++ avanzarTiempo(int horas) : Void
++ obtenerFecha() : LocalDateTime
+}
+
+interface Edificio {
++ desplegarPista() : String
+}
+
+class Mapa {
+- calcularDistancia(Ciudad ciudad) : Int
++ Mapa(Ciudad ciudad)
++ realizarViaje(Ciudad ciudad, Detective detective) : Void
+ + ciudadActual() : String
+}
+
+class Banco implements Edificio {}
+class Aeropuerto implements Edificio {}
+class Puerto implements Edificio {}
+class Biblioteca implements Edificio {}
+class Bolsa implements Edificio {}
+
+Mapa ..> Detective
+Mapa --> "*" Ciudad
+Detective ..> Edificio
+Detective --> Reloj
+Ciudad ..> Detective
+Ciudad o-- "3" Edificio
+
+@enduml

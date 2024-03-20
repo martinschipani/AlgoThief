@@ -1,0 +1,25 @@
+@startuml
+
+autonumber
+
+title Detective visita edificio en ciudad donde pasó el ladron
+actor Juego
+
+Juego -> Ciudad : visitarEdificio(detective, edificio)
+
+activate Ciudad
+Ciudad -> Ciudad : incrementarContadorDeVisitas
+activate Ciudad
+deactivate Ciudad
+
+Ciudad -> Detective : visitarEdificio(edificio, contadorDeVisitas)
+activate Detective
+Ciudad -> Detective : leerPistaConLadron(nombreCiudad, tipoEdificio)
+
+Ciudad <-- Detective : pista
+deactivate Detective
+Juego <-- Ciudad : pista
+
+deactivate Ciudad
+
+@enduml

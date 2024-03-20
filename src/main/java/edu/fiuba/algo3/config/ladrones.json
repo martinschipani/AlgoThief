@@ -1,0 +1,93 @@
+[
+  {
+    "Nombre":   "Nick Brunch",
+    "Sexo":     "Masculino",
+    "Hobby":    "Alpinismo",
+    "Cabello":  "Negro",
+    "Senia":     "Anillo",
+    "Auto":     "Moto"
+  },
+
+  {
+    "Nombre":   "Len Bulk",
+    "Sexo":     "Masculino",
+    "Hobby":    "Alpinismo",
+    "Cabello":  "Pelirrojo",
+    "Senia":     "Tatuaje",
+    "Auto":     "Convertible"
+  },
+
+  {
+    "Nombre":   "Ihor Ihorovitch",
+    "Sexo":     "Masculino",
+    "Hobby":    "Croquet",
+    "Cabello":  "Rubio",
+    "Senia":     "Tatuaje",
+    "Auto":     "Limosina"
+  },
+
+  {
+    "Nombre":   "Fast Eddie B.",
+    "Sexo":     "Masculino",
+    "Hobby":    "Croquet",
+    "Cabello":  "Negro",
+    "Senia":     "Joyas",
+    "Auto":     "Convertible"
+  },
+
+  {
+    "Nombre":   "Scar Graynolt",
+    "Sexo":     "Masculino",
+    "Hobby":    "Croquet",
+    "Cabello":  "Pelirrojo",
+    "Senia":     "Anillo",
+    "Auto":     "Limosina"
+  },
+
+  {
+    "Nombre":   "Merey Laroc",
+    "Sexo":     "Femenino",
+    "Hobby":    "Alpinismo",
+    "Cabello":  "Castaño",
+    "Senia":     "Joyas",
+    "Auto":     "Limosina"
+  },
+
+  {
+    "Nombre":   "Lady Agatha",
+    "Sexo":     "Femenino",
+    "Hobby":    "Tennis",
+    "Cabello":  "Pelirrojo",
+    "Senia":     "Anillo",
+    "Auto":     "Convertible"
+  },
+
+  {
+    "Nombre":   "Katherine Drib",
+    "Sexo":     "Femenino",
+    "Hobby":    "Alpinismo",
+    "Cabello":  "Castaño",
+    "Senia":     "Tatuaje",
+    "Auto":     "Moto"
+  },
+
+  {
+    "Nombre":   "Dazzle Annie",
+    "Sexo":     "Femenino",
+    "Hobby":    "Tennis",
+    "Cabello":  "Rubio",
+    "Senia":     "Tatuaje",
+    "Auto":     "Limosina"
+  },
+
+  {
+    "Nombre":   "Carmen Sandiego",
+    "Sexo":     "Femenino",
+    "Hobby":    "Tennis",
+    "Cabello":  "Castaño",
+    "Senia":     "Joyas",
+    "Auto":     "Convertible"
+  }
+]
+
+

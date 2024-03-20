@@ -1,0 +1,48 @@
+{
+  "distanciasCiudades": {
+    "Montreal": {
+      "Roma": 6582,
+      "Buenos Aires": 9045,
+      "Mexico": 3725
+    },
+    "New York": {
+      "Estambul": 5918,
+      "Mexico": 3239,
+      "Rio de Janeiro": 7743
+    },
+    "Buenos Aires": {
+      "Montreal": 9045,
+      "Rio de Janeiro": 1946,
+      "El Cairo": 11821
+    },
+    "Mexico": {
+      "New York": 3239,
+      "Oslo": 8478,
+      "Montreal": 3725
+    },
+    "Rio de Janeiro": {
+      "New York": 7743,
+      "Buenos Aires": 1946,
+      "Estambul":10303
+    },
+    "El Cairo": {
+      "Roma": 2128,
+      "Buenos Aires": 11821
+    },
+    "Oslo": {
+      "Roma": 2009,
+      "Estambul": 1946,
+      "Mexico": 8478
+    },
+    "Roma": {
+      "Montreal": 6582,
+      "El Cairo": 2128,
+      "Oslo": 2009
+    },
+    "Estambul": {
+      "New York": 5918,
+      "Oslo": 1946,
+      "Rio de Janeiro": 10303
+    }
+  }
+}
